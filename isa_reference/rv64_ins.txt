@@ -1,0 +1,43 @@
+rv64i.rst.txt
+  | addiw      rd,rs1,imm
+  | slliw      rd,rs1,shamt
+  | srliw      rd,rs1,shamt
+  | sraiw      rd,rs1,shamt
+  | addw       rd,rs1,rs2
+  | subw       rd,rs1,rs2
+  | sllw       rd,rs1,rs2
+  | srlw       rd,rs1,rs2
+  | sraw       rd,rs1,rs2
+  | lwu        rd,offset(rs1)
+  | ld         rd,offset(rs1)
+  | sd         rs2,offset(rs1)
+rv64m.rst.txt
+  | mulw       rd,rs1,rs2
+  | divw       rd,rs1,rs2
+  | divuw      rd,rs1,rs2
+  | remw       rd,rs1,rs2
+  | remuw      rd,rs1,rs2
+rv64a.rst.txt
+  | lr.d       rd,rs1
+  | sc.d       rd,rs1,rs2
+  | amoswap.d  rd,rs2,(rs1)
+  | amoadd.d   rd,rs2,(rs1)
+  | amoxor.d   rd,rs2,(rs1)
+  | amoand.d   rd,rs2,(rs1)
+  | amoor.d    rd,rs2,(rs1)
+  | amomin.d   rd,rs2,(rs1)
+  | amomax.d   rd,rs2,(rs1)
+  | amominu.d  rd,rs2,(rs1)
+  | amomaxu.d  rd,rs2,(rs1)
+rv64f.rst.txt
+  | fcvt.l.s   rd,rs1
+  | fcvt.lu.s  rd,rs1
+  | fcvt.s.l   rd,rs1
+  | fcvt.s.lu  rd,rs1
+rv64d.rst.txt
+  | fcvt.l.d   rd,rs1
+  | fcvt.lu.d  rd,rs1
+  | fmv.x.d    rd,rs1
+  | fcvt.d.l   rd,rs1
+  | fcvt.d.lu  rd,rs1
+  | fmv.d.x    rd,rs1
